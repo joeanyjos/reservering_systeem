@@ -17,7 +17,7 @@ require "header.php" ?>
         } else if ($_GET['error'] == "passwordcheck"){
             echo 'Wachtwoorden komen niet overeen!';
         } else if ($_GET['error'] == "usertaken") {
-            echo 'Gebruikersnaam al in gebruik!';
+            echo 'Gebruikersnaam bestaat al!';
         }
     }
     //successvolle registratie vermelden
